@@ -53,10 +53,9 @@ This is a blog website built using the MERN (MongoDB, Express.js, React, Node.js
     ```
     
 2. Install dependencies:
-    ```
-    npm install
-    ```
-3. Strat the frontend server
+    `npm install`
+   
+4. Strat the frontend server
     `npm start`
 The frontend server will start on `http://localhost:3000`.
 
