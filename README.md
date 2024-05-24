@@ -48,7 +48,6 @@ This is a blog website built using the MERN (MongoDB, Express.js, React, Node.js
 
 1. Navigate to the client directory:
     ```
-    Copy code
     cd ../client
     ```
     
