@@ -42,7 +42,7 @@ This is a blog website built using the MERN (MongoDB, Express.js, React, Node.js
   ```
 4. Start the backend server:
   `npm start`
-##Frontend Setup
+### Frontend Setup
 
 1. Navigate to the client directory:
 
