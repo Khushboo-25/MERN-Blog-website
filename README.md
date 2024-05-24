@@ -57,10 +57,10 @@ This is a blog website built using the MERN (MongoDB, Express.js, React, Node.js
     npm install
     ```
     
-3.Strat the frontend server
-    `npm start`
-    
-The frontend server will start on `http://localhost:3000`.
+    3.Strat the frontend server
+      `npm start`
+   
+    The frontend server will start on `http://localhost:3000`.
 
 ## Usage
 
