@@ -64,19 +64,19 @@ This is a blog website built using the MERN (MongoDB, Express.js, React, Node.js
 
 ## Usage
 
-    1. Open your browser and navigate to http://localhost:3000.
-    2. Register or log in to start using the application.
-    3. Write, edit, and delete your blog posts as desired.
+  1. Open your browser and navigate to http://localhost:3000.
+  2. Register or log in to start using the application.
+  3. Write, edit, and delete your blog posts as desired.
 
 ## Contributing
   Contributions are welcome! Please follow these steps:
 
-    1. Fork the repository.
-    2. Create a new branch (git checkout -b feature-branch).
-    3. Make your changes.
-    4. Commit your changes (git commit -m 'Add some feature').
-    5. Push to the branch (git push origin feature-branch).
-    6. Open a pull request.
+  1. Fork the repository.
+  2. Create a new branch (git checkout -b feature-branch).
+  3. Make your changes.
+  4. Commit your changes (git commit -m 'Add some feature').
+  5. Push to the branch (git push origin feature-branch).
+  6. Open a pull request.
 
 
 
