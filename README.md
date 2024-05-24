@@ -31,37 +31,31 @@ This is a blog website built using the MERN (MongoDB, Express.js, React, Node.js
    ```
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name/api
+   ```
 2. Install dependencies:
-
-  ```
-npm install
-```
+  `npm install`
 
 3. Create a .env file in the api directory and add your environment variables:
   ```.env
-MONGO_URI=your_mongodb_uri
-PORT=5000
-```
-4. Start the backend server:
+  MONGO_URI=your_mongodb_uri
+  PORT=5000
   ```
-npm start
-```
+4. Start the backend server:
+  `npm start`
 ##Frontend Setup
 
 1. Navigate to the client directory:
 
-```
-Copy code
-cd ../client
-```
+  ```
+  Copy code
+  cd ../client
+  ```
 2. Install dependencies:
    ```
    npm install
    ```
 3.Strat the frontend server
-```
-npm start
-```
+  `npm start`
 The frontend server will start on `http://localhost:3000`.
 
 ## Usage
