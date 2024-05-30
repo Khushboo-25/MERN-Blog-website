@@ -7,6 +7,7 @@ import Single from "./components/Pages/Single/Single";
 import Register from './components/Pages/Register/Register';
 import { useContext } from "react";
 import { Context } from "./Context/Context";
+import Footer from './components/Footer/Footer';
 
 // import SinglePost from './components/SinglePost/SinglePost';
 
@@ -49,6 +50,8 @@ function App() {
             element={user?<Settings/>:<Login /> }
           />
           </Routes>
+          <Footer/>
+
     </Router>
     
   );
