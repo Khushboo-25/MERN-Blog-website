@@ -1,16 +1,21 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "./index.js",
-        "use": "@vercel/node"
-      }
-    ],
-    "routes": [
-      { "src": "/auth", "dest": "./routes/auth.js" },
-      { "src": "/categories", "dest": "./routes/categories.js" },
-      { "src": "/posts", "dest": "./routes/posts.js" },
-      { "src": "/users", "dest": "./routes/users.js" }
-    ]
-  }
-  
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "client/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "client/build" }
+    }
+  ],
+  "routes": [
+    { "src": "/api/routes/auth.js", "dest": "api/index.js" },
+    { "src": "/api/routes/categories.js", "dest": "api/index.js" },
+    { "src": "/api/routes/posts.js", "dest": "api/index.js" },
+    { "src": "/api/routes/users.js", "dest": "api/index.js" },
+    
+  ]
+}
